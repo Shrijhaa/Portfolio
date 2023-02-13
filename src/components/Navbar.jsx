@@ -21,28 +21,28 @@ const Navbar = () => {
         <h1 className=' font-thin text-2xl italic font-serif'>S</h1>
       </div>
       {/* menu */}
-      <ul className='hidden md:flex gap-x-8'>
-        <li>
+      <ul className='flex gap-x-8'>
+        <li className="hover:border-b-2 hover:border-cyan-500 hover:font-bold p-2">
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="hover:border-b-2 hover:border-cyan-500 hover:font-bold p-2">
           <Link to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className="hover:border-b-2 hover:border-cyan-500 hover:font-bold p-2">
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className="hover:border-b-2 hover:border-cyan-500 hover:font-bold p-2">
           <Link to='work' smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li>
+        <li className="hover:border-b-2 hover:border-cyan-500  hover:font-bold p-2">
           <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link>
@@ -90,43 +90,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      {/* Social icons */}
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
-        <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-              Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
+      
     </div>
   );
 };

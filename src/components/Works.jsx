@@ -12,21 +12,21 @@ const Works = () => {
           <p className='py-6 text-2xl'>Check out some of my Projects</p>
         </div>
 {/* Container */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-16'>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${code})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            style={{ backgroundImage: `url(${code})`}}
+            className='bg-cover shadow-lg shadow-[#040c16] group container h-[300px] rounded-md flex justify-center items-center mx-auto'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className='opacity-0 group-hover:opacity-100 hover:bg-blue-500 h-[300px] flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
                 VIRTUAL AI BOARD
               </span>
-              <p className='text-center'>Python based application to enable virtual writing withot touch interfaces</p>
+              <p className='text-center p-4'>Python based application to enable virtual writing withot touch interfaces</p>
               <div className='pt-8 text-center'>
                 
-                <a href='https://github.com/Shrijhaa/Virtual-AI-Board'>
+                <a target="_blank" href='https://github.com/Shrijhaa/Virtual-AI-Board'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -38,17 +38,17 @@ const Works = () => {
 
           <div
             style={{ backgroundImage: `url(${code1})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            className='bg-cover shadow-lg shadow-[#040c16] group h-[300px] container rounded-md flex justify-center items-center mx-auto'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
+            <div className='opacity-0 group-hover:opacity-100  hover:bg-blue-500 h-[300px] flex justify-center items-center flex-col'>
+              <span className='text-lg font-bold text-white tracking-wider'>
                 ROADSTER UI/UX DESIGN
               </span>
               <p className='text-center'>Roadster - web based application to organize bike rally for women bikers</p>
               <div className='pt-8 text-center'>
                 
-                <a href='https://drive.google.com/file/d/1y5lw1aMS78lDZ10wf3R0LlFNHHcEanSI/view?usp=share_link'>
+                <a target="_blank" href='https://drive.google.com/file/d/1y5lw1aMS78lDZ10wf3R0LlFNHHcEanSI/view?usp=share_link'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
